@@ -1,0 +1,71 @@
+
+/*CSS Selector*/
+html {
+    background: #FF5855; /* fallback color */
+    background: linear-gradient( to bottom, #FF5855, #E88E42);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+	text-align:center;
+	font-family: 'Montserrat', sans-serif;
+	color:#ffffff;
+	/*background-image:url();*/
+}
+
+
+#title{
+	/*color:#FFC243; */
+	color:white;
+	font-family: 'Staatliches', cursive;
+	font-size: 108px;
+    margin: 6%;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    font-weight:lighter;
+}
+
+.contentText{
+	/*color:#330136;*/
+	display: inline-block;
+	font-weight: bold;
+}
+
+.heading{
+	/*color:#330136;*/
+	margin:0%;
+	font-size: 29px;
+}
+
+#subheading{
+	/*color:black;*/
+	margin:0%;
+	font-size: 10px;
+}
+
+.content{
+	/*text-align: center*/
+margin: auto;
+  width: 50%;
+  padding: 10px;
+	
+}
+
+span {
+	text-decoration: underline;
+}
+
+a{
+	text-decoration: none;
+	font-size:20px;
+	color:#FFC243;
+}
+
+a:hover{
+	text-decoration: none;
+	font-size:20px;
+	color:white;
+}
